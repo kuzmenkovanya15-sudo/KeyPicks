@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html translate="no">
+<title>KeyCat - Chat</title>
+<body>
+
+    <style>
+
+        body {
+            background-color: blanchedalmond;
+            font-family: sans-serif;
+            color: white;
+        }
+
+        button {
+            background-color: rgb(90, 67, 24);
+            color: white;
+            width: 200px;
+            height: 30px;
+            border-color: white;
+            margin-top: 2%;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .title {
+            margin-top: 7%;
+        }
+
+        input {
+            width: 400px;
+            height: 25px;
+            background-color: rgb(139, 101, 29);
+            border-radius: 7px;
+            border-color: rgb(255, 255, 255);
+            color: white;
+        }
+
+        .input-area {
+            padding: 10px 15px;
+        }
+
+        .messages {
+            flex-grow: 1;
+            padding: 20px 40px;
+            overflow-y: auto;
+            line-height: 1.5;
+}
+
+        .logo {
+            width: 1250px;
+            height: 200px;
+            background-color: rgb(255, 136, 0);
+            border-radius: 7px;
+            margin-top: 3%;
+        }
+
+        .dialog {
+            width: 1250px;
+            height: 720px;
+            background-color: rgb(255, 136, 0);
+            border-radius: 7px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            gap: 10px;
+}
+
+    </style>
+    <center><b>
+        <div class="logo">
+             <p></p><br>
+            <h2>KeyCat</h2></div>
+        <p></p>
+        <div class="dialog">
+            <button>OpenAI API</button>
+            <button>Local Mode</button><p></p>
+            <div class="messages">
+            <p>-Привет! Меня зовут KeyCat! Я Искусственный Интеллект который сделает тебя весёлым и поможет с чем угодно! Мяу</p>
+            <p>Если ты хочешь, чтобы я стал очень умным - Включи OpenAI API!!!</p>
+        </div>
+            <div class="input-area">
+                <input placeholder="Введите ваш запрос...">
+        </div>
+</div>
+</body>
+</html>
